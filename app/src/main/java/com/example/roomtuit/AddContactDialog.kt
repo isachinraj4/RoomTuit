@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.sp
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AddContactDialog(
+    fun AddContactDialog(
     state: ContactState,
     onEvent: (ContactEvent) -> Unit,
     modifier: Modifier = Modifier
